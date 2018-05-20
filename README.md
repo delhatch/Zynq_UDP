@@ -12,7 +12,7 @@ The purpose of this project is to demostrate data transfers over UDP using the Z
 
 Using the figure below as a guide, build a Zynq system. The AXI Interconnect, Processor Reset, and GPIO modules are optional, but I like to put them in for command.control/debugging later.
 
-![screenshot](https://github.com/delhatch/system.JPG)
+![screenshot](https://github.com/delhatch/Zynq_UDP/system.JPG)
 
 You can use all of the system defaults, peripheral auto-address assignments, and system configuration defaults -- no need to customize anything.
 
@@ -42,7 +42,7 @@ Copy the files into the <project>.sdk/<project>/src directory. Then in the SDK, 
 
 Now compile and run the code. As the code runs, in the connected terminal program, you will see this:
 
-![screenshot](https://github.com/delhatch/terminal.JPG)
+![screenshot](https://github.com/delhatch/Zynq_UDP/terminal.JPG)
 
 The dots along the bottom indicate that the Zedboard is sending a UDP packet. This happens once every 500 mSeconds. The packet consists of a single integer with a value of 0x45.
 
