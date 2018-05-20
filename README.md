@@ -34,9 +34,9 @@ Launch PuTTY, type in the IP address of the Zedboard defined in the main.c file,
 
 The default lwIP Echo Server uses TCP. To convert it to use UDP instead, replace the supplied main.c with the main.c in this Github repository. Also, replace the echo.c file.
 
-Also, download the includes.h file and add them to your project.
+Also, download the includes.h file and add it to your project.
 
-Copy the files into the <project>.sdk/<project>/src directory. Then in the SDK, highlight the <SDK project> line in the "Project Explorer" frame, and hit F5 to refresh.
+Copy the files into your project's <project>.sdk/<project>/src directory. Then in the SDK, highlight the <SDK project> line in the "Project Explorer" frame, and hit F5 to refresh.
 
 ** Compile and run
 
