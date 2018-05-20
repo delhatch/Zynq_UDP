@@ -68,7 +68,9 @@ This project is mainly a demonstration of how to use UDP to send and receive dat
 
 I will be using it to stream media from the Zedboard to a PC, and using VLC to view the media stream.
 
+** Credit
 
+Lance Simms posted a very good, and complicated, project that uses UDP here: http://lancesimms.com/Xilinx/MicroZed_UDP_Server_for_Waveform_Centroiding_Table_Of_Contents.html
 
-
+My project reduces that code base to the fundamental UDP principles to provide an easily extended platform for custom projects.
 
