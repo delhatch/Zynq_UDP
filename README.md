@@ -48,7 +48,7 @@ The dots along the bottom indicate that the Zedboard is sending a UDP packet. Th
 
 To see the packets being sent, use Wireshark.
 
-There are many ways to transmit data to the Zedboard of UDP. I used the VLC media player and set it to stream a .mpg file over UDP. Here's how to do that:
+There are many ways to transmit UDP packets to the Zedboard. I used the VLC media player and set it to stream a .mpg file over UDP. Here's how to do that:
 
 Launch VLC and click Media -> Stream...
 
@@ -60,7 +60,7 @@ Click Next. I un-select "Activate Transcoding" but it does not matter for this p
 
 Click Next, and then Stream.
 
-In ther terminal program you will see a lot of messages showing you the length of the UDP datagrams received by the Zedboard.
+In ther terminal program you will see a lot of messages showing you the length of the UDP datagrams received by the Zedboard, from the VLC program.
 
 ** Improvements
 
