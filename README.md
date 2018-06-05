@@ -10,7 +10,7 @@ The purpose of this project is to demostrate data transfers over UDP using the Z
 
 ** Build a Zynq system using Vivado
 
-Using the figure below as a guide, build a Zynq system. The AXI Interconnect, Processor Reset, and GPIO modules are optional, but I like to put them in for command.control/debugging later.
+Using the figure below as a guide, build a Zynq system. The AXI Interconnect, Processor Reset, and GPIO modules are optional, but I like to put them in for command/control/debugging later.
 
 ![screenshot](https://github.com/delhatch/Zynq_UDP/blob/master/system.JPG)
 
@@ -60,7 +60,7 @@ Click Next. I un-select "Activate Transcoding" but it does not matter for this p
 
 Click Next, and then Stream.
 
-In ther terminal program you will see a lot of messages showing you the length of the UDP datagrams received by the Zedboard, from the VLC program.
+In the terminal program you will see a lot of messages (from the Zedboard) showing you the length of the UDP datagrams received by the Zedboard from the VLC program.
 
 ** Improvements
 
