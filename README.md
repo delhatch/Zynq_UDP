@@ -16,7 +16,7 @@ Using the figure below as a guide, build a Zynq system. The AXI Interconnect, Pr
 
 You can use all of the system defaults, peripheral auto-address assignments, and system configuration defaults -- no need to customize anything.
 
-After you build the system and export the hardware (including the bit file) launch the SDK.
+After you build the system and export the hardware (including the bit file), launch the SDK.
 
 ** SDK and software
 
