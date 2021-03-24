@@ -51,11 +51,11 @@ volatile u8		Error;
 
 // Global Variables for Ethernet handling
 u16_t    		RemotePort = 8;
-struct ip_addr  	RemoteAddr;
+struct ip4_addr  	RemoteAddr;
 struct udp_pcb 		send_pcb;
 
 void
-print_ip(char *msg, struct ip_addr *ip) 
+print_ip(char *msg, struct ip4_addr *ip)
 {
 	print(msg);
 	xil_printf("%d.%d.%d.%d\n\r", ip4_addr1(ip), ip4_addr2(ip), 
@@ -80,7 +80,7 @@ void print_app_header()
 
 int main()
 {
-	struct ip_addr ipaddr, netmask, gw /*, Remotenetmask, Remotegw*/;
+	struct ip4_addr ipaddr, netmask, gw /*, Remotenetmask, Remotegw*/;
 	struct pbuf * psnd;
 	err_t udpsenderr;
 	int status = 0;

@@ -20,7 +20,7 @@ extern volatile u8	Error;
 
 // Global Variables for Ethernet handling
 extern u16_t    	RemotePort;
-extern struct ip_addr  	RemoteAddr;
+extern struct ip4_addr  	RemoteAddr;
 extern struct udp_pcb 	send_pcb;
 
 int transfer_data() {
@@ -37,7 +37,7 @@ void print_app_header()
 
 /* recv_callback: function that handles responding to UDP packets */
 void recv_callback(void *arg, struct udp_pcb *upcb,
-                              struct pbuf *p, struct ip_addr *addr, u16_t port)
+                              struct pbuf *p, struct ip4_addr *addr, u16_t port)
 {
 
 	// Set up a timeout counter and a status variable
